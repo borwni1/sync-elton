@@ -17,5 +17,16 @@ public class Utilisateur implements Observer{
         System.out.println("[Notification] : "+message);
     }
 
+    public String getNom(){
+        return this.nom;
+    }
+
+    public String getPrenom(){
+        return this.prenom;
+    }
+
+    public int getAge(){
+        return this.age;
+    }
 
 }
