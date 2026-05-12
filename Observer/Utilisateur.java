@@ -13,8 +13,8 @@ public class Utilisateur implements Observer{
     }
 
     @Override
-    public void recapMensuel() {
-        System.out.println("Récapitulatif mensuel : [TODO]");
+    public void notifier(String message) {
+        System.out.println("[Notification] : "+message);
     }
 
 
