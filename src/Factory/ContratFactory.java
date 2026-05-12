@@ -1,7 +1,7 @@
 package Factory;
 
-import model.Contrat;
-import model.Enfant;
+import Model.Contrat;
+import Model.Enfant;
 
 public class ContratFactory {
 

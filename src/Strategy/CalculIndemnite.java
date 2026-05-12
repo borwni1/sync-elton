@@ -1,6 +1,6 @@
 package Strategy;
 
-import model.Contrat;
+import Model.Contrat;
 
 public interface CalculIndemnite {
 

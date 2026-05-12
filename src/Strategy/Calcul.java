@@ -1,7 +1,7 @@
 package Strategy;
 
-import model.Contrat;
-import model.SessionGarde;
+import Model.Contrat;
+import Model.SessionGarde;
 
 public class Calcul implements CalculIndemnite{
 
