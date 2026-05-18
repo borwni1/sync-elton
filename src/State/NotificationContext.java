@@ -5,7 +5,7 @@ public class NotificationContext {
     private NotificationState state;
 
     public NotificationContext() {
-        state = new WaitingState();
+        state = new SentState();
     }
 
     public void setState(NotificationState state) {
